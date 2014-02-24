@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>macaroni</id>
+    <title>Macaroni for C++</title>
+    <version>0.2.0</version>
+    <authors>Tim Simpson</authors>
+    <owners>Tim Simpson</owners>
+    <summary>Compiler / parser / enhancer for C++</summary>
+    <description>Macaroni for C++ parses a sleeker version of C++ that resembles Java or C# and generates C++ code, managing the physical layout of your project for you</description>
+    <projectUrl>http://border-town.com/macaroni/</projectUrl>
+    <tags>macaroni c++ cpp lua</tags>
+    <copyright>Copyright 2014 Tim Simpson</copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://border-town.com/macaroni/images/Maccy.png</iconUrl>
+    <dependencies>
+      <dependency id="vcredist2013" version="12.0.0.20140222" />
+    </dependencies>
+    <releaseNotes>Initial attempt to make Macaroni distributable with Chocolatey.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
