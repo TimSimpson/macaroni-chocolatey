@@ -3,7 +3,7 @@
   <metadata>
     <id>macaroni</id>
     <title>Macaroni for C++</title>
-    <version>0.2.3</version>
+    <version>{VERSION}</version>
     <authors>Tim Simpson</authors>
     <owners>Tim Simpson</owners>
     <summary>Compiler / parser / enhancer for C++</summary>
